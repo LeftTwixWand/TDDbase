@@ -1,0 +1,53 @@
+﻿@startuml
+'https://plantuml.com/component-diagram
+
+
+header Microinvest Portal
+title "Login User"
+footer Page %page% of %lastpage%
+actor "Web User" as User #coral
+
+header Microinvest Portal
+title "Licenses"
+footer Page %page% of %lastpage%
+actor User #coral
+participant "Client\nApp" as Client #cyan
+participant "Client\nInfrastructure" as ClientInfrastructure #violet
+participant "Server" as Server #gold
+participant "External Service" as ES #teal
+participant "Infrastructure" as Infrastructure #green 
+database MPortal.DB as DB #lime
+
+group Step: Get All Licenses
+User[#coral]->Client : Request
+autonumber 1
+Client [#violet]->ClientInfrastructure: Licenses Manager
+ClientInfrastructure [#gold]-> Server: GET: api/licenses/{userId}
+Server [#green]-> Infrastructure: Licenses Service:\n LicensesAsync()
+Infrastructure [#lime]-> DB : LicensesRequest.cs
+else
+
+DB [#lime]-> Infrastructure: LicensesResponse.cs
+autonumber 6.1
+Infrastructure [#teal]-> ES --: GET: api/licenses/{licenses}
+else Get Licenses Success 1 
+ES [#teal]-> Infrastructure--: Return Success
+Infrastructure [#lime]-> User--: All licenses of current user
+else Get Licenses Success 2
+else Get Licenses Failed 1
+Infrastructure [#red]-> User: Licenses Not Found
+else Get Licenses Failed 2
+Infrastructure [#red]-> User:  Licenses were expired 
+else Get Licenses Failed 3
+Infrastructure [#red]-> User: External Service return failed
+else Get Licenses Failed 4
+Infrastructure [#red]-> User: Smth else
+note right: Get licenses have failed
+end
+
+
+
+
+
+
+@enduml
