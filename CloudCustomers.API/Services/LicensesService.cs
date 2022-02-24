@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿
+
+using CloudCustomers.API.Models;
 
 namespace CloudCustomers.API.Services;
 
