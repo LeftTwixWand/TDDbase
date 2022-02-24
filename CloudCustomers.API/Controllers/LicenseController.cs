@@ -23,6 +23,7 @@ public class LicenseController : ControllerBase
     public async Task<IActionResult> GetAllLicense()
     {
         var licenses = await _licensesService.GetAllLicenses();
-        return Ok(licenses);
+        if (licenses.Any())  return Ok(licenses);
+        return NotFound();
     }
 }
