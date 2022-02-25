@@ -6,15 +6,16 @@ namespace CloudCustomers.API.Services;
 
 public class LicensesService : ILicensesService
 {
-   
-    public LicensesService(ILicensesService licensesService)
+    private readonly HttpClient _httpClient;
+    public LicensesService(HttpClient httpClient)
     {
-       
+        _httpClient = httpClient;
     }
 
-    public Task<List<License>> GetAllLicenses()
+    public async Task<List<License>> GetAllLicenses()
     {
-        throw new NotImplementedException();
+        var usersResponse = await _httpClient.GetAsync("https://example.com");
+        return new List<License>{};
     }
     
 }

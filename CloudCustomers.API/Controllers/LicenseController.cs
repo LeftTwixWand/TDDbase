@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CloudCustomers.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/license/")]
 public class LicenseController : ControllerBase
 {
     private readonly ILicensesService _licensesService;

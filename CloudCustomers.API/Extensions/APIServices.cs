@@ -7,6 +7,7 @@ public static class ApiServices
     public static void ConfigureServices(IServiceCollection services)
     {
         services.AddTransient<ILicensesService, LicensesService>();
+        services.AddHttpClient<ILicensesService, LicensesService>();
     }
 
 }

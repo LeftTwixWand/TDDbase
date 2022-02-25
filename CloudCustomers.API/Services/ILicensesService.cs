@@ -1,6 +1,4 @@
-﻿
-
-using CloudCustomers.API.Models;
+﻿using CloudCustomers.API.Models;
 
 namespace CloudCustomers.API.Services;
 

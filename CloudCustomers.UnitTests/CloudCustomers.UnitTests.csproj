@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CloudCustomers.API\CloudCustomers.API.csproj" />
   </ItemGroup>
 
