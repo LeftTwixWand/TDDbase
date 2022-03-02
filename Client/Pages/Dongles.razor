@@ -1,0 +1,19 @@
+﻿@page "/Dongles"
+@inject Microsoft.Extensions.Localization.IStringLocalizer<Dongles> localizer
+
+<h3>Dongles</h3>
+<div class="mx-auto" style="max-width: 400px;">
+    <MudExpansionPanels>
+        <MudExpansionPanel @bind-IsExpanded="isOpen" HideIcon="true">
+        <TitleContent>
+            <div class="d-flex">
+                <MudText>@localizer["Pick the dongle"]</MudText>
+                <MudIcon Icon="@(isOpen ? Icons.Material.Filled.Close : Icons.Material.Filled.Add)" class="ml-auto"></MudIcon>
+            </div>
+        </TitleContent>
+        <ChildContent>
+           @serialNumber
+        </ChildContent>
+        </MudExpansionPanel>
+    </MudExpansionPanels>
+</div>

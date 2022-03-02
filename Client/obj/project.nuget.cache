@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WO/0EU+I+6B29eS32a0NC3FI+9lccp032z3n1KfRQC55LNHq3bH4NTK7Kn8tMmnBUrqkqdaIrz9QeNhdOM5O+Q==",
+  "dgSpecHash": "FwlnrgsyccDgIPjtkd6DctlC7osdYMeV6P8ISt6goNIHEbnJ0mMXsJy7s6NHDbq8GinGK9HcI6MypzDk6LKK0w==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client\\Client.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,8 @@
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.localization\\6.0.2\\microsoft.extensions.localization.6.0.2.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.2\\microsoft.extensions.localization.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

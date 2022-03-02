@@ -23,6 +23,8 @@
       "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-7PzvEcQvpK1c8tTX9VPI8AF+XrekqbAytNBQXJjvTvQ=",
       "Microsoft.Extensions.FileProviders.Physical.dll": "sha256-sXujvGMZDgBBZ9HqfcEq9XsM0pvwyhPt60NA9qLDzGI=",
       "Microsoft.Extensions.FileSystemGlobbing.dll": "sha256-viiXOG0fwhWobT0TQ1ZOJiZBdRvYRlWbDtjz+6d8sQI=",
+      "Microsoft.Extensions.Localization.dll": "sha256-jtLkbdn30iCTQmPeoYqumiafZp5KxzKAPFgV5s7zvE8=",
+      "Microsoft.Extensions.Localization.Abstractions.dll": "sha256-73\/5zh2SKHwAOs35bdCzLdSH5pWGAttYnw7EnH3ANO0=",
       "Microsoft.Extensions.Logging.dll": "sha256-GDZQCBtVHfrZZ6fL95lGoinLeUWLjQShLbfESwO7mrc=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-1XXJ0VQ8pybOFNvf\/RA+k+pSfNRrsoMW2h9BItvFXVY=",
       "Microsoft.Extensions.Options.dll": "sha256-eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=",
@@ -197,13 +199,13 @@
       "mscorlib.dll": "sha256-+5VU+MYaTQMTlRe9QKobEjWZWv6I9teAGdNndWSBqWE=",
       "netstandard.dll": "sha256-E5RFhGIaDH5QM6BEbFUuHU8U9wP6N6jbo5MCttzLOCM=",
       "System.Private.CoreLib.dll": "sha256-9NtEbYixyog7vUmeYXyyqzfBXUYl8wxoVQ26Ji7sNRg=",
-      "Client.dll": "sha256-Ocetxn3iDz4ac+GmcQ9Y0M33RJ\/BkiG0C9T080DVcpk="
+      "Client.dll": "sha256-WH20wqRnlfayJrQXPo3gjpNc2ceCVQ8hdAj6OZQ9O08="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Client.pdb": "sha256-i3tyzFcS7ov+0y3tFy6OXOZOds4JS1Pb4WTUVIIxO7o="
+      "Client.pdb": "sha256-dtsAIdA4j04t4gAC50PLBMMX17BQyEl3uneEB9yD79s="
     },
     "runtime": {
       "dotnet.6.0.1.ag12b9x3re.js": "sha256-awQsJ\/WxYhouHPuE+i3eJqjA4XClQlr2rD6nKvW80ww=",
@@ -214,6 +216,16 @@
       "icudt_EFIGS.dat": "sha256-4RwaPx87Z4dvn77ie\/ro3\/QzyS+\/gGmO3Y\/0CSAXw4k=",
       "icudt_no_CJK.dat": "sha256-OxylFgLJlFqixsj+nLxYVsv5iZLvfIKMpLf9hrWaChA="
     },
-    "satelliteResources": null
+    "satelliteResources": {
+      "bg": {
+        "bg\/Client.resources.dll": "sha256-25aow5VG10YPp3TukDbKmNH4wEOdbl3GXk+4juQJWdk="
+      },
+      "en": {
+        "en\/Client.resources.dll": "sha256-TJ+ve91A6ON+1Ty4eZxJAT7RZiK1J3WIeUbx76dbmSo="
+      },
+      "ru": {
+        "ru\/Client.resources.dll": "sha256-yZIahny1qutEkWJ6ZZI3qZIccnn37OxYP8QMpJt+FYs="
+      }
+    }
   }
 }
