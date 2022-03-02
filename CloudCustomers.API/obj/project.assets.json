@@ -72,6 +72,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Client.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Client.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Client.Infrastructure.dll": {}
+        }
+      },
+      "CloudCustomers.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CloudCustomers.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudCustomers.Domain.dll": {}
+        }
       }
     }
   },
@@ -200,10 +220,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Client.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Client.Infrastructure/Client.Infrastructure.csproj",
+      "msbuildProject": "../Client.Infrastructure/Client.Infrastructure.csproj"
+    },
+    "CloudCustomers.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CloudCustomers.Domain/CloudCustomers.Domain.csproj",
+      "msbuildProject": "../CloudCustomers.Domain/CloudCustomers.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Client.Infrastructure >= 1.0.0",
+      "CloudCustomers.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -237,7 +269,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\Client.Infrastructure.csproj"
+            },
+            "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

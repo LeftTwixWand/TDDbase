@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-ApiServices.ConfigureServices(builder.Services);
+ApiServices.ConfigureServices(builder);
 
 var app = builder.Build();
 
@@ -27,6 +27,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-
-
