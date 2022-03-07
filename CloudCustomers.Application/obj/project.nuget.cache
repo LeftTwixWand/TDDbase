@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3PD0TVKuS1M2WoVlYFHsVJ7ipjhcDFUfL5UNVDekB/vlkIxkr4lSh8nsnFy7FP6QsslgQ4jySIEVSKTt34a2w==",
+  "dgSpecHash": "HcpcpNrD5MRbLkxUWHBeiJbwsD59GDzCpAnSm0ymOWLBWW1sfQJBPwxorKhPlI5eVxma4oFAmlXy6pQWtG6wSQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\CloudCustomers.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.0\\microsoft.netcore.app.ref.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

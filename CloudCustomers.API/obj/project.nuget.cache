@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HVkGkcX1aIRvgS+7BZsa0NzVpbGQ3BixhlwN6WSaIb8inFqKpVLqgjx8NgC1/rf4ruZM9Hr+qffhpHua577kSQ==",
+  "dgSpecHash": "QjSDbcrtPBMorehA1d/pZLnM56FMRb04fNoQlHTh9Wqe8XrbyvEqPowI7ImrsRR+YR2Tjl6R00HlyhAVDz5TkA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.0\\microsoft.netcore.app.ref.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

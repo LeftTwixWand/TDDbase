@@ -1,6 +1,7 @@
 ﻿using AngleSharp.Dom;
 using Bunit;
-using Client.Pages;
+using CloudCustomers.Client.Pages;
+using CloudCustomers.Client.Pages.Dongle;
 
 namespace CloudCustomers.Clients.Tests.Components;
 
@@ -11,7 +12,7 @@ public class DonglePageTests
     {
         // Arrange
         using var context = new TestContext();
-        var renderComponent = context.RenderComponent<Dongles>();
+        var renderComponent = context.RenderComponent<DonglesPage>();
         var element = renderComponent.Find("mud-expand-panel mud-panel-expanded mud-elevation-1 mud-expand-panel-border");
         
         // Act

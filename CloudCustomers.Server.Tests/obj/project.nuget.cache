@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8hKnqv3lrfbEJ1Gz0E/xn6uy1zD5nERjHQxsx8MsmyrEYgo1ZVnANS+DZgNjD9pZL8wXmOtVUcL0xePMI3bAwg==",
+  "dgSpecHash": "XUT12T5oxvXo2Eky/tJpWdpTA3wAIV+/CP0y7eOD616hSFnUFYyx9Y/2JeLNdE1oSCtO0qHTYnImWUYGtHHhNA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Server.Tests\\CloudCustomers.Server.Tests.csproj",
   "expectedPackageFiles": [
@@ -113,7 +113,8 @@
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.0\\microsoft.netcore.app.ref.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

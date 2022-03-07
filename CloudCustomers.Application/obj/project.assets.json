@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {
+      "CloudCustomers.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CloudCustomers.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudCustomers.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CloudCustomers.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CloudCustomers.Domain/CloudCustomers.Domain.csproj",
+      "msbuildProject": "../CloudCustomers.Domain/CloudCustomers.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net6.0": [
+      "CloudCustomers.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\": {},
@@ -31,16 +50,20 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "projectReferences": {}
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -50,8 +73,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -62,6 +85,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.0, 6.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

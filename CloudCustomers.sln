@@ -23,11 +23,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{6A86
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1992F9FB-82D4-47C1-A63D-536DE4948835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{8D915682-6F78-4A44-AAE2-ED3902570A27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Client", "CloudCustomers.Client\CloudCustomers.Client.csproj", "{8D915682-6F78-4A44-AAE2-ED3902570A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Infrastructure", "Client.Infrastructure\Client.Infrastructure.csproj", "{FA761BA1-62BA-4F49-96F0-8DC75CDF62BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Client.Infrastructure", "CloudCustomers.Client.Infrastructure\CloudCustomers.Client.Infrastructure.csproj", "{FA761BA1-62BA-4F49-96F0-8DC75CDF62BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Clients.Tests", "CloudCustomers.Clients.Tests\CloudCustomers.Clients.Tests.csproj", "{75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Shared", "CloudCustomers.Shared\CloudCustomers.Shared.csproj", "{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +68,10 @@ Global
 		{75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0DC45FD5-605C-4343-8ED2-06CFD6A2865A} = {2A758F12-912F-4FB5-A01E-C2B4121BB81C}
@@ -75,5 +81,6 @@ Global
 		{8D915682-6F78-4A44-AAE2-ED3902570A27} = {6A867AB9-56BD-4AD6-BCF5-06950732E9D0}
 		{FA761BA1-62BA-4F49-96F0-8DC75CDF62BD} = {6A867AB9-56BD-4AD6-BCF5-06950732E9D0}
 		{75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D} = {1992F9FB-82D4-47C1-A63D-536DE4948835}
+		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5} = {817212C3-EC20-4C1E-A733-AC19AB7943EC}
 	EndGlobalSection
 EndGlobal

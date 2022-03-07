@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\Client.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\Client.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\Client.Infrastructure.csproj",
+        "projectName": "Client.Infrastructure",
+        "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\Client.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\Client.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\CloudCustomers.Application.csproj": {
+                "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\CloudCustomers.Application.csproj"
+              },
+              "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Shared\\CloudCustomers.Shared.csproj": {
+                "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Shared\\CloudCustomers.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.1.22110.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\CloudCustomers.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\CloudCustomers.Application.csproj",
+        "projectName": "CloudCustomers.Application",
+        "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\CloudCustomers.Application.csproj",
+        "packagesPath": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.1.22110.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj",
+        "projectName": "CloudCustomers.Domain",
+        "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj",
+        "packagesPath": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.1.22110.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Shared\\CloudCustomers.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Shared\\CloudCustomers.Shared.csproj",
+        "projectName": "CloudCustomers.Shared",
+        "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Shared\\CloudCustomers.Shared.csproj",
+        "packagesPath": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.1.22110.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

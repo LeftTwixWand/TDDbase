@@ -1,5 +1,5 @@
 ﻿using System.Net;
-using Client.Infrastructure.Routes;
+using CloudCustomers.Client.Infrastructure.Routes;
 using CloudCustomers.Domain.Entity;
 
 namespace CloudCustomers.API.Services;

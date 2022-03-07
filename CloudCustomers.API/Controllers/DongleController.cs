@@ -32,7 +32,7 @@ public class DongleController : ControllerBase
     public async Task<IActionResult> GetDongleBySerial(string serial)
     {
         var dongle = await _dongleService.GetDongleById(serial);
-        var dongleSerial = dongle.Serial;
+        var dongleSerial = dongle.SerialNumber;
         if (string.IsNullOrEmpty(dongleSerial))    return NotFound();
         return Ok(dongle);
     }

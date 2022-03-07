@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "Castle.Core/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -1942,21 +1942,11 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Client.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Client.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Client.Infrastructure.dll": {}
-        }
-      },
       "CloudCustomers.API/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Client.Infrastructure": "1.0.0",
+          "CloudCustomers.Client.Infrastructure": "1.0.0",
           "CloudCustomers.Domain": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -1970,14 +1960,51 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "CloudCustomers.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CloudCustomers.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CloudCustomers.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudCustomers.Application.dll": {}
+        }
+      },
+      "CloudCustomers.Client.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CloudCustomers.Application": "1.0.0",
+          "CloudCustomers.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CloudCustomers.Client.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudCustomers.Client.Infrastructure.dll": {}
+        }
+      },
       "CloudCustomers.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/CloudCustomers.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/CloudCustomers.Domain.dll": {}
+        }
+      },
+      "CloudCustomers.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CloudCustomers.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudCustomers.Shared.dll": {}
         }
       }
     }
@@ -6858,24 +6885,34 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Client.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Client.Infrastructure/Client.Infrastructure.csproj",
-      "msbuildProject": "../Client.Infrastructure/Client.Infrastructure.csproj"
-    },
     "CloudCustomers.API/1.0.0": {
       "type": "project",
       "path": "../CloudCustomers.API/CloudCustomers.API.csproj",
       "msbuildProject": "../CloudCustomers.API/CloudCustomers.API.csproj"
     },
+    "CloudCustomers.Application/1.0.0": {
+      "type": "project",
+      "path": "../CloudCustomers.Application/CloudCustomers.Application.csproj",
+      "msbuildProject": "../CloudCustomers.Application/CloudCustomers.Application.csproj"
+    },
+    "CloudCustomers.Client.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CloudCustomers.Client.Infrastructure/CloudCustomers.Client.Infrastructure.csproj",
+      "msbuildProject": "../CloudCustomers.Client.Infrastructure/CloudCustomers.Client.Infrastructure.csproj"
+    },
     "CloudCustomers.Domain/1.0.0": {
       "type": "project",
       "path": "../CloudCustomers.Domain/CloudCustomers.Domain.csproj",
       "msbuildProject": "../CloudCustomers.Domain/CloudCustomers.Domain.csproj"
+    },
+    "CloudCustomers.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CloudCustomers.Shared/CloudCustomers.Shared.csproj",
+      "msbuildProject": "../CloudCustomers.Shared/CloudCustomers.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "CloudCustomers.API >= 1.0.0",
       "FluentAssertions >= 6.5.1",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
@@ -6909,15 +6946,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj": {
               "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj"
@@ -6932,8 +6969,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
@@ -6974,6 +7011,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.0, 6.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
