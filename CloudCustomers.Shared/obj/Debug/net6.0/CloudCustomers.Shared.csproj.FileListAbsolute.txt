@@ -1,0 +1,12 @@
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\bin\Debug\net6.0\CloudCustomers.Shared.deps.json
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\bin\Debug\net6.0\CloudCustomers.Shared.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\bin\Debug\net6.0\CloudCustomers.Shared.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.csproj.AssemblyReference.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.AssemblyInfoInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.AssemblyInfo.cs
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\refint\CloudCustomers.Shared.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\CloudCustomers.Shared.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net6.0\ref\CloudCustomers.Shared.dll

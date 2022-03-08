@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uZ2xlXERvbmdsZUFsZXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/Tests/TDD/CloudCustomers/CloudCustomers.Client/Pages/Dongle/DongleDataTable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uZ2xlXERvbmdsZURhdGFUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/Tests/TDD/CloudCustomers/CloudCustomers.Client/Pages/Dongle/DonglesPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uZ2xlXERvbmdsZXNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

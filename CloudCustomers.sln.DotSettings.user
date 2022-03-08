@@ -1,7 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=37ae65c0_002Da98d_002D40b3_002D9334_002Da0e818a462cc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InformationShouldViewWhenSelectedDongle" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D::net6.0::CloudCustomers.Clients.Tests.Components.DonglePageTests.InformationShouldViewWhenSelectedDongle&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f99d39c1_002D87eb_002D40a7_002Dbd72_002D567a4829bceb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetDongleBySerialWhenCalledInvokesHttpGetRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::38F3AE76-1C13-476E-B882-AE7E0958D32B::net7.0::CloudCustomers.Server.Tests.Server.Controllers.UnitTest1.RegisterControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D::net6.0::CloudCustomers.Clients.Tests.Components.DonglePageTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Clients_002FClient_002FResources_002FPages_002FDongles_002FDongles/@EntryIndexedValue">True</s:Boolean>

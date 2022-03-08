@@ -1,6 +1,5 @@
 ﻿@page "/Dongles"
 @using Microsoft.Extensions.Localization
-@using CloudCustomers.Application.Responses.Dongles
 @inject IStringLocalizer<DonglesPage> _localizer
 @inject IDialogService DialogService
 
@@ -43,6 +42,7 @@
                         if (serialNumberActiveDongle.Equals(item.SerialNumber))
                         {
                             <MudButton OnClick="() => ShowInformationAboutDongle(item.SerialNumber)"
+                                       Class="dongle"
                                        Variant="Variant.Filled"
                                        Style="box-shadow: none; background-color: #594ae2">
                                 <MudAlert Severity="Severity.Info" NoIcon="true" Class="my-2" Style="color: #ffffff !important;">@item.SerialNumber</MudAlert>
@@ -57,7 +57,6 @@
                             </MudButton>
                         }
                     }
-
                 </ChildContent>
             </MudExpansionPanel>
         </MudExpansionPanels>
@@ -65,31 +64,7 @@
     <MudItem xs="9">
         @if (_showTableLicenses)
         {
-            <MudTable Items="@_chosenDongle" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped"
-                      Filter="new Func<DongleInformationResponse, bool>(FilterFunc1)">
-                <ToolBarContent>
-                    <MudText Typo="Typo.h6">Dongles</MudText>
-                    <MudSpacer/>
-                    <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search"
-                                  IconSize="Size.Medium" Class="mt-0">
-                    </MudTextField>
-                </ToolBarContent>
-                <HeaderContent>
-                    <MudTh>Serial Number</MudTh>
-                    <MudTh>Product Name</MudTh>
-                    <MudTh>Dealer Company</MudTh>
-                    <MudTh>Expiration</MudTh>
-                </HeaderContent>
-                <RowTemplate>
-                    <MudTd DataLabel="Molar mass">@context.SerialNumber</MudTd>
-                    <MudTd DataLabel="Sign">@context.ProductName</MudTd>
-                    <MudTd DataLabel="Name">@context.DealerСompany</MudTd>
-                    <MudTd DataLabel="Position">@context.Expiration</MudTd>
-                </RowTemplate>
-                <PagerContent>
-                    <MudTablePager/>
-                </PagerContent>
-            </MudTable>
+            <DongleDataTable ChosenDongle="_chosenDongle"/>
         }
     </MudItem>
 </MudGrid>

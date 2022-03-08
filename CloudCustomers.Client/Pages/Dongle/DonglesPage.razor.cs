@@ -13,22 +13,16 @@ public partial class DonglesPage
     };
 
     private readonly string _searchString = "";
-
-    private readonly bool bordered = false;
-
-    private readonly bool dense = false;
-    private readonly bool hover = true;
-    private readonly bool striped = false;
+    
     private IEnumerable<DongleInformationResponse> _allDonglesOfUser;
     private List<DongleInformationResponse> _chosenDongle;
 
-    private bool _showTableLicenses;
+    private static bool _showTableLicenses;
 
     private HttpClient httpClient;
 
     private bool isOpen;
-    private string searchString = "";
-
+    
     private string serialNumberActiveDongle = "";
 
 
@@ -56,19 +50,7 @@ public partial class DonglesPage
         _chosenDongle = new List<DongleInformationResponse>();
     }
 
-    private bool FilterFunc1(DongleInformationResponse element)
-    {
-        return FilterFunc(element, _searchString);
-    }
 
-    private bool FilterFunc(DongleInformationResponse element, string searchString)
-    {
-        if (string.IsNullOrWhiteSpace(searchString))
-            return true;
-        if (element.DealerСompany.Contains(searchString, StringComparison.OrdinalIgnoreCase))
-            return true;
-        return false;
-    }
 
     private void ServerReload(TableState state)
     {
@@ -82,14 +64,13 @@ public partial class DonglesPage
         var request = new GetDongleBySerialRequest
             { PageSize = statePageSize, PageNumber = statePage + 1, SearchString = _searchString };
     }
-
-
+    
     private void OpenDialog()
     {
         DialogService.Show<DongleAlert>("Add dongle");
     }
 
-    private async void ShowInformationAboutDongle(string serialNumber)
+    private  void ShowInformationAboutDongle(string serialNumber)
     {
         serialNumberActiveDongle = serialNumber;
         foreach (var dongle in _allDonglesOfUser)
