@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/cVBkkQCwfWKn7j2Ibi9h/rqympB0//nP+3rJ4YFoY+JWznunKWokgjwoQ/L4Y2yWTRq/aAx+nMAgpeejSVg9w==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.0\\microsoft.netcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

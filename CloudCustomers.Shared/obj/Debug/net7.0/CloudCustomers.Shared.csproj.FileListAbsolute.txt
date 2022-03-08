@@ -1,0 +1,5 @@
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net7.0\CloudCustomers.Shared.csproj.AssemblyReference.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net7.0\CloudCustomers.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net7.0\CloudCustomers.Shared.AssemblyInfoInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net7.0\CloudCustomers.Shared.AssemblyInfo.cs
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Shared\obj\Debug\net7.0\CloudCustomers.Shared.csproj.CoreCompileInputs.cache

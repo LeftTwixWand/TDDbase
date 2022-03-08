@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CloudCustomers.Application\CloudCustomers.Application.csproj" />
+      <ProjectReference Include="..\CloudCustomers.Shared\CloudCustomers.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

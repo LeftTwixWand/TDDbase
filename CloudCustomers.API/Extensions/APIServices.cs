@@ -4,9 +4,10 @@ namespace CloudCustomers.API.Extensions;
 
 public static class ApiServices
 {
-    public static void ConfigureServices(IServiceCollection services)
+    public static void ConfigureServices(WebApplicationBuilder builder)
     {
-        services.AddTransient<ILicensesService, LicensesService>();
+        var services = builder.Services;
+        services.AddTransient<IDongleService, DongleService>();
+        services.AddHttpClient<IDongleService, DongleService>();
     }
-
 }

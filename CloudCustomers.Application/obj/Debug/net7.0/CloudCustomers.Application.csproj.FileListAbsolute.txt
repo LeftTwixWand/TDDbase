@@ -1,0 +1,15 @@
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\bin\Debug\net7.0\CloudCustomers.Application.deps.json
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\bin\Debug\net7.0\CloudCustomers.Application.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\bin\Debug\net7.0\CloudCustomers.Application.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\bin\Debug\net7.0\CloudCustomers.Domain.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\bin\Debug\net7.0\CloudCustomers.Domain.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.csproj.AssemblyReference.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.AssemblyInfoInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.AssemblyInfo.cs
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.csproj.CopyComplete
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\refint\CloudCustomers.Application.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\CloudCustomers.Application.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Application\obj\Debug\net7.0\ref\CloudCustomers.Application.dll

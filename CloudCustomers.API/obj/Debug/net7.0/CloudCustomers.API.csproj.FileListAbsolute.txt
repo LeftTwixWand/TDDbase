@@ -25,3 +25,7 @@ C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\obj\Debug\net7.0\refint\
 C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\obj\Debug\net7.0\CloudCustomers.API.pdb
 C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\obj\Debug\net7.0\CloudCustomers.API.genruntimeconfig.cache
 C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\obj\Debug\net7.0\ref\CloudCustomers.API.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\bin\Debug\net7.0\CloudCustomers.Domain.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\bin\Debug\net7.0\CloudCustomers.Domain.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\bin\Debug\net7.0\Client.Infrastructure.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.API\bin\Debug\net7.0\Client.Infrastructure.pdb

@@ -1,0 +1,46 @@
+﻿@startuml
+'https://plantuml.com/component-diagram
+
+
+header Microinvest Portal
+title "Login User"
+footer Page %page% of %lastpage%
+actor "User" as User #coral
+
+header Microinvest Portal
+title "Dongle"
+footer Page %page% of %lastpage%
+actor User #coral
+participant "Client\nApp" as Client #cyan
+participant "Client\nInfrastructure" as ClientInfrastructure #violet
+participant "Server" as Server #gold
+participant "External Service" as ES #teal
+participant "Infrastructure" as Infrastructure #green 
+database MPortal.DB as DB #lime
+
+group Step: Get All Dongle
+User[#coral]->Client : Request
+autonumber 1
+Client [#violet]->ClientInfrastructure: Dongle Manager
+ClientInfrastructure [#gold]-> Server: GET: api/dongles/
+Server [#green]-> Infrastructure: Dongle Service:\n DongleAsync()
+Infrastructure [#lime]-> DB : DongleRequest.cs
+else
+
+DB [#lime]-> Infrastructure: DongleResponse.cs
+autonumber 6.1
+Infrastructure [#teal]-> ES --: GET: api/licenses/
+else Get Dongle Success 1 
+ES [#teal]-> Infrastructure--: Return Success
+Infrastructure [#lime]-> User--: All licenses of current user
+else Get Dongle Failed 1
+Infrastructure [#red]-> User: Dongle Not Found
+else Get Dongle Failed 2
+Infrastructure [#red]-> User:  Dongle were expired 
+else Get Dongle Failed 3
+Infrastructure [#red]-> User: External Service return failed
+note right: Get licenses have failed
+end
+
+
+@enduml

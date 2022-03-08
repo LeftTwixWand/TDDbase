@@ -1,0 +1,95 @@
+﻿@page "/Dongles"
+@using Microsoft.Extensions.Localization
+@using CloudCustomers.Application.Responses.Dongles
+@inject IStringLocalizer<DonglesPage> _localizer
+@inject IDialogService DialogService
+
+<MudGrid Justify="Justify.FlexStart" Class="d-flex">
+    <MudItem xs="12">
+        <MudItem xs="3">
+            <MudPaper Class="d-flex justify-center mud-width-full py-2" Style="width: 93%;">
+                <MudItem xs="6">
+                    <MudImage Src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                              Width="90" Height="90" Alt="logo" Elevation="25" Class="rounded-lg ma-4" Fluid="true"/>
+                </MudItem>
+                <MudItem xs="6" Style="margin: auto;">
+                    <MudText Typo="Typo.caption" Align="Align.Center" GutterBottom="true">
+                        Anton Kharhcenko
+                    </MudText>
+                    <p>
+                        <MudText Typo="Typo.caption" Align="Align.Center" GutterBottom="true">Micorinvest</MudText>
+                    </p>
+                    <MudButton OnClick="OpenDialog" Size="Size.Small" DisableRipple="true"
+                               Color="Color.Info"
+                               Variant="Variant.Text" EndIcon="@Icons.Filled.ChevronRight">
+                        Add Dongle
+                    </MudButton>
+                </MudItem>
+            </MudPaper>
+        </MudItem>
+    </MudItem>
+    <MudItem xs="3">
+        <MudExpansionPanels>
+            <MudExpansionPanel @bind-IsExpanded="isOpen" HideIcon="true">
+                <TitleContent>
+                    <div class="d-flex">
+                        <MudText>@_localizer["Pick the dongle"]</MudText>
+                        <MudIcon Icon="@(isOpen ? Icons.Material.Filled.Close : Icons.Material.Filled.Add)" class="ml-auto"></MudIcon>
+                    </div>
+                </TitleContent>
+                <ChildContent>
+                    @foreach (var item in _allDonglesOfUser)
+                    {
+                        if (serialNumberActiveDongle.Equals(item.SerialNumber))
+                        {
+                            <MudButton OnClick="() => ShowInformationAboutDongle(item.SerialNumber)"
+                                       Variant="Variant.Filled"
+                                       Style="box-shadow: none; background-color: #594ae2">
+                                <MudAlert Severity="Severity.Info" NoIcon="true" Class="my-2" Style="color: #ffffff !important;">@item.SerialNumber</MudAlert>
+                            </MudButton>
+                        }
+                        else
+                        {
+                            <MudButton OnClick="() => ShowInformationAboutDongle(item.SerialNumber)"
+                                       Variant="Variant.Filled"
+                                       Style="box-shadow: none; background-color: transparent;">
+                                <MudAlert Severity="Severity.Info" NoIcon="true" Class="my-2">@item.SerialNumber</MudAlert>
+                            </MudButton>
+                        }
+                    }
+
+                </ChildContent>
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+    </MudItem>
+    <MudItem xs="9">
+        @if (_showTableLicenses)
+        {
+            <MudTable Items="@_chosenDongle" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped"
+                      Filter="new Func<DongleInformationResponse, bool>(FilterFunc1)">
+                <ToolBarContent>
+                    <MudText Typo="Typo.h6">Dongles</MudText>
+                    <MudSpacer/>
+                    <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search"
+                                  IconSize="Size.Medium" Class="mt-0">
+                    </MudTextField>
+                </ToolBarContent>
+                <HeaderContent>
+                    <MudTh>Serial Number</MudTh>
+                    <MudTh>Product Name</MudTh>
+                    <MudTh>Dealer Company</MudTh>
+                    <MudTh>Expiration</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="Molar mass">@context.SerialNumber</MudTd>
+                    <MudTd DataLabel="Sign">@context.ProductName</MudTd>
+                    <MudTd DataLabel="Name">@context.DealerСompany</MudTd>
+                    <MudTd DataLabel="Position">@context.Expiration</MudTd>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager/>
+                </PagerContent>
+            </MudTable>
+        }
+    </MudItem>
+</MudGrid>
