@@ -1,5 +1,5 @@
-﻿using Client.Infrastructure.Routes;
-using CloudCustomers.API.Services;
+﻿using CloudCustomers.API.Services;
+using CloudCustomers.Client.Infrastructure.Routes;
 using CloudCustomers.Domain.Entity;
 using CloudCustomers.Server.Tests.Fixtures;
 using CloudCustomers.Server.Tests.Helpers;

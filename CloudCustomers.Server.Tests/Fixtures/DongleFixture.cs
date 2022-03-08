@@ -10,16 +10,14 @@ public static class DongleFixture
         {
             new Dongle
             {
-                Description = "Test description",
                 DealerId = 1,
-                Serial = "00002",
+                SerialNumber = "00002",
                 UserId = 12
             },
-            new Dongle
+            new Dongle 
             {
-                Description = "Test description 2",
                 DealerId = 2,
-                Serial = "155123",
+                SerialNumber = "155123",
                 UserId = 5
             }
         };
@@ -29,9 +27,8 @@ public static class DongleFixture
     {
         return new Dongle
         {
-            Description = "Single",
             DealerId = 16,
-            Serial = "00000008",
+            SerialNumber = "00000008",
             UserId = 14521
         };
     }

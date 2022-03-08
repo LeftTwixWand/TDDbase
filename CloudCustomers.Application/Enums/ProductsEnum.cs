@@ -14,7 +14,7 @@ public enum ProductsEnum : byte
     BilliardsPro = 9,
     UtilityCenterPlus = 10,
     DeltaPro = 11,
-    TpzLcPro = 12,
+    TrzLcPro = 12,
     WarehouseProPhoneManager = 13,
     UtilityCenter = 14,
     AcPro = 15,

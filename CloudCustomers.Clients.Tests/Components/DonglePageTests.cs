@@ -20,6 +20,6 @@ public class DonglePageTests
         var ListOfSerialNumbers = element.AwaitEventAsync("").Result;
         
         // Assert
-        ListOfSerialNumbers;
+
     }
 }

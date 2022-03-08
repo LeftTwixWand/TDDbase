@@ -1,8 +1,6 @@
-﻿using System.Net.Http.Json;
-using CloudCustomers.Application.Enums;
+﻿using CloudCustomers.Application.Enums;
 using CloudCustomers.Application.Requests.Dongles;
 using CloudCustomers.Application.Responses.Dongles;
-using CloudCustomers.Shared.Wrapper;
 using MudBlazor;
 
 namespace CloudCustomers.Client.Pages.Dongle;
@@ -21,20 +19,22 @@ public partial class DonglesPage
     private readonly bool dense = false;
     private readonly bool hover = true;
     private readonly bool striped = false;
-    private IEnumerable<DongleInformationResponse> _table;
-    private string searchString = "";
+    private IEnumerable<DongleInformationResponse> _allDonglesOfUser;
+    private List<DongleInformationResponse> _chosenDongle;
+
+    private bool _showTableLicenses;
 
     private HttpClient httpClient;
 
     private bool isOpen;
-    // [Inject] private IDongleManager DongleManager { get; set; }
+    private string searchString = "";
 
-    private IResult<IEnumerable<DongleInformationResponse>> Dongles { get; set; }
+    private string serialNumberActiveDongle = "";
 
 
     protected override async Task OnInitializedAsync()
     {
-        _table = new List<DongleInformationResponse>
+        _allDonglesOfUser = new List<DongleInformationResponse>
         {
             new()
             {
@@ -42,9 +42,18 @@ public partial class DonglesPage
                 DealerСompany = "My Dealer",
                 ProductName = ProductsEnum.AcPro,
                 ProductId = 12,
-                SerialNumber = "qrtwqrwq"
+                SerialNumber = "X9891452-QWE23-Q21321"
+            },
+            new()
+            {
+                Expiration = DateTime.Now.AddHours(3),
+                DealerСompany = "New Dealer",
+                ProductName = ProductsEnum.Fitness,
+                ProductId = 10,
+                SerialNumber = "Qrwqreq-QWE23-QZzzz"
             }
         };
+        _chosenDongle = new List<DongleInformationResponse>();
     }
 
     private bool FilterFunc1(DongleInformationResponse element)
@@ -77,6 +86,19 @@ public partial class DonglesPage
 
     private void OpenDialog()
     {
-        DialogService.Show<DongleAlert>("Choose an action");
+        DialogService.Show<DongleAlert>("Add dongle");
+    }
+
+    private async void ShowInformationAboutDongle(string serialNumber)
+    {
+        serialNumberActiveDongle = serialNumber;
+        foreach (var dongle in _allDonglesOfUser)
+            if (serialNumber.Equals(dongle.SerialNumber))
+            {
+                _chosenDongle.Clear();
+                _chosenDongle.Add(dongle);
+            }
+
+        _showTableLicenses = true;
     }
 }
