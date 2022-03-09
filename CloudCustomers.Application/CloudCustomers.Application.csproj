@@ -5,6 +5,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Features\Dongles\Commands" />
+      <Folder Include="Features\Dongles\Queries" />
+      <Folder Include="Mappings" />
       <Folder Include="Resources" />
     </ItemGroup>
 

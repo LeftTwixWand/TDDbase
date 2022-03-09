@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj": {}
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Infrastructure\\CloudCustomers.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj": {
+    "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Infrastructure\\CloudCustomers.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj",
-        "projectName": "CloudCustomers.Domain",
-        "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\CloudCustomers.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Infrastructure\\CloudCustomers.Infrastructure.csproj",
+        "projectName": "CloudCustomers.Infrastructure",
+        "projectPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Infrastructure\\CloudCustomers.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Domain\\obj\\",
+        "outputPath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,14 +42,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[9.0.1, )"
-            }
-          },
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -60,12 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.0, 6.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

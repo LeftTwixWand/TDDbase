@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I14+jyNhGH6+B2jNqSrAD06t3ZeC/th0X8CV/DzOiH200/WooXYE8mjIFrvadftI2fRCxPY9Ro6ScZMTfvEzgg==",
+  "dgSpecHash": "Ytv4mc6JI0BdhKEeqyuxZJMpw4LBxjW89XtDyeXW2H4f2DA+YNpOaPA1YQaIDB9GUJ+IukDnTifm85qEwhklQA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Clients.Tests\\CloudCustomers.Clients.Tests.csproj",
   "expectedPackageFiles": [

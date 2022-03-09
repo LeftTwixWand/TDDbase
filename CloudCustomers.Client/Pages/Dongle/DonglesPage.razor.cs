@@ -40,7 +40,7 @@ public partial class DonglesPage
             {
                 Expiration = DateTime.Now.AddHours(2),
                 DealerСompany = "My Dealer",
-                ProductName = ProductsEnum.AcPro,
+                ProductName = ProductsEnum.ArhiPro,
                 ProductId = 12,
                 SerialNumber = "X9891452-QWE23-Q21321"
             },
