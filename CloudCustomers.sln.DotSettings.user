@@ -4,6 +4,11 @@
     &lt;TestId&gt;xUnit::75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D::net6.0::CloudCustomers.Clients.Tests.Components.DonglePageTests.InformationShouldViewWhenSelectedDongle&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e56b0778_002D7b74_002D448f_002D8173_002Dec4270bfd34b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ViewDongleTableWhenWillClickOnSerialNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D::net6.0::CloudCustomers.Clients.Tests.Components.DonglePageTests.ViewDongleTableWhenWillClickOnSerialNumber&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f99d39c1_002D87eb_002D40a7_002Dbd72_002D567a4829bceb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetDongleBySerialWhenCalledInvokesHttpGetRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D::net6.0::CloudCustomers.Clients.Tests.Components.DonglePageTests&lt;/TestId&gt;&#xD;

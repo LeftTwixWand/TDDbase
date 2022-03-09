@@ -204,7 +204,7 @@
       "CloudCustomers.Client.Infrastructure.dll": "sha256-bnErJ0h3Po\/xxnrHqrPJcj09ts769HE9AIt2fo0hfXM=",
       "CloudCustomers.Domain.dll": "sha256-fa9POSlJO4qVllgHeeYXOeXBTuWFCjH0oNQytBFEET0=",
       "CloudCustomers.Shared.dll": "sha256-98S2n6JWo7lWB5\/ypUi35ObXvxC6YY0+AbpJjf4RRA8=",
-      "CloudCustomers.Client.dll": "sha256-BWMV6U92F889rv0NcsKfOYSfzO\/VJH0ONcivKN4dH8E="
+      "CloudCustomers.Client.dll": "sha256-p7weaYE7CUjqNvuXoZk9wa6Da1EZNjCGeYVVpDvbOVI="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -214,7 +214,7 @@
       "CloudCustomers.Application.pdb": "sha256-gBiE6AHLeP7XbANoCmNbSQ6xLzDfiFxT+HSpUFKCYX8=",
       "CloudCustomers.Domain.pdb": "sha256-Y3N4ywxHOaZI1WccA8SzuvvBv0LqUTP7lCGlgV71pmw=",
       "CloudCustomers.Shared.pdb": "sha256-3M+AH6vc+kTaFgG7+WftEH2vLGbYNGFZmLo3\/is0t6U=",
-      "CloudCustomers.Client.pdb": "sha256-xO5eMxV5hIHHrXUeP2x6fNKAJu66\/7Rd1U1eXAqbKZI="
+      "CloudCustomers.Client.pdb": "sha256-fZitaYvVsgU5kdjHlsYv5PrEYfjuD8TUTXeVbib9ZeM="
     },
     "runtime": {
       "dotnet.6.0.1.ag12b9x3re.js": "sha256-awQsJ\/WxYhouHPuE+i3eJqjA4XClQlr2rD6nKvW80ww=",

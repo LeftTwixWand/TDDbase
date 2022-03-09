@@ -14,6 +14,7 @@ public static class MudBlazorExtensions
         context.Services.AddTransient<IKeyInterceptor, KeyInterceptor>();
         context.Services.AddTransient<IScrollManager, ScrollManager>();
         context.Services.AddTransient<IMudPopoverService, MudPopoverService>();
+        context.Services.AddLocalization(opt => { opt.ResourcesPath = "Resources"; });
     }
     
  
