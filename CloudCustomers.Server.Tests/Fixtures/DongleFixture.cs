@@ -26,6 +26,7 @@ public static class DongleFixture
 
     public static Dongle GetTestDongleBySerial()
     {
+        
         return new Dongle
         {
             DealerId = 16,

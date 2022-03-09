@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Clients.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Shared", "CloudCustomers.Shared\CloudCustomers.Shared.csproj", "{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Infrastructure", "CloudCustomers.Infrastructure\CloudCustomers.Infrastructure.csproj", "{EEB6BE27-152A-4D3C-8417-21E645A10932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB6BE27-152A-4D3C-8417-21E645A10932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB6BE27-152A-4D3C-8417-21E645A10932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB6BE27-152A-4D3C-8417-21E645A10932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB6BE27-152A-4D3C-8417-21E645A10932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0DC45FD5-605C-4343-8ED2-06CFD6A2865A} = {2A758F12-912F-4FB5-A01E-C2B4121BB81C}
@@ -82,5 +88,6 @@ Global
 		{FA761BA1-62BA-4F49-96F0-8DC75CDF62BD} = {6A867AB9-56BD-4AD6-BCF5-06950732E9D0}
 		{75E7EFC9-7E3E-4968-B2B4-4C1A21BFB41D} = {1992F9FB-82D4-47C1-A63D-536DE4948835}
 		{9462C72E-ED05-4E46-BBB3-73BF605E3BB5} = {817212C3-EC20-4C1E-A733-AC19AB7943EC}
+		{EEB6BE27-152A-4D3C-8417-21E645A10932} = {304D97F8-570F-4F87-BD3F-B68E128F74CB}
 	EndGlobalSection
 EndGlobal
