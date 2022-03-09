@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Net.Http.Headers;
 using CloudCustomers.Domain.Entity;
+using CloudCustomers.Domain.Entity.Dongle;
 using Moq;
 using Moq.Protected;
 using Newtonsoft.Json;

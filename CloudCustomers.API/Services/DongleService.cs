@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using CloudCustomers.Client.Infrastructure.Routes;
 using CloudCustomers.Domain.Entity;
+using CloudCustomers.Domain.Entity.Dongle;
 
 namespace CloudCustomers.API.Services;
 

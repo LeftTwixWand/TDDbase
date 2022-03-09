@@ -1,4 +1,5 @@
 ﻿using CloudCustomers.Domain.Entity;
+using CloudCustomers.Domain.Entity.Dongle;
 
 namespace CloudCustomers.Server.Tests.Fixtures;
 

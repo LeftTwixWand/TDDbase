@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using CloudCustomers.Domain.Contracts;
 
-namespace CloudCustomers.Domain.Entity;
+namespace CloudCustomers.Domain.Entity.Dongle;
 
-public class Dongle
+public class Dongle : AuditableEntity<int>
 {
     [Required] public string SerialNumber { get; set; }
     public int DealerId { get; set; }

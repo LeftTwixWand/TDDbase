@@ -1,6 +1,7 @@
 using CloudCustomers.API.Controllers;
 using CloudCustomers.API.Services;
 using CloudCustomers.Domain.Entity;
+using CloudCustomers.Domain.Entity.Dongle;
 using CloudCustomers.Server.Tests.Fixtures;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
