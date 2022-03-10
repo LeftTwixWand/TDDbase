@@ -9,14 +9,16 @@
     <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\CloudCustomers.Client.Infrastructure\CloudCustomers.Client.Infrastructure.csproj" />
-        <ProjectReference Include="..\CloudCustomers.Domain\CloudCustomers.Domain.csproj" />
-    </ItemGroup>
+    
 
     <ItemGroup>
       <Folder Include="Config" />
+    </ItemGroup>
+    
+
+    <ItemGroup>
+      <ProjectReference Include="..\CloudCustomers.Application\CloudCustomers.Application.csproj" />
+      <ProjectReference Include="..\CloudCustomers.Infrastructure\CloudCustomers.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

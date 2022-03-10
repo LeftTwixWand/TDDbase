@@ -1,6 +1,6 @@
-﻿using CloudCustomers.API.Services;
+﻿using CloudCustomers.Infrastructure.Services;
 
-namespace CloudCustomers.API.Extensions;
+namespace CloudCustomers.Server.Extensions;
 
 public static class ApiServices
 {

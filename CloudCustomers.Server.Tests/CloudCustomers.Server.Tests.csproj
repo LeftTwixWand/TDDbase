@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\CloudCustomers.API\CloudCustomers.API.csproj" />
+        <ProjectReference Include="..\CloudCustomers.Server\CloudCustomers.Server.csproj" />
     </ItemGroup>
 
 </Project>

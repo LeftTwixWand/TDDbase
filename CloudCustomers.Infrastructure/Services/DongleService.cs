@@ -1,9 +1,9 @@
 ﻿using System.Net;
+using System.Net.Http.Json;
 using CloudCustomers.Client.Infrastructure.Routes;
-using CloudCustomers.Domain.Entity;
 using CloudCustomers.Domain.Entity.Dongle;
 
-namespace CloudCustomers.API.Services;
+namespace CloudCustomers.Infrastructure.Services;
 
 public class DongleService : IDongleService
 {

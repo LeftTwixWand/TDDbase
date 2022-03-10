@@ -1,5 +1,6 @@
-using CloudCustomers.API.Extensions;
+using CloudCustomers.Server.Extensions;
 using CloudCustomers.Application.Extensions;
+using CloudCustomers.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
@@ -11,6 +12,9 @@ services.AddControllers();
 services.AddEndpointsApiExplorer();
 services.AddSwaggerGen();
 services.AddApplicationLayer();
+services.AddInfrastructureMappings();
+services.AddRepositories();
+
 
 
 ApiServices.ConfigureServices(builder);

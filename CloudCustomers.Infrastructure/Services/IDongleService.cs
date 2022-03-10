@@ -1,7 +1,6 @@
-﻿using CloudCustomers.Domain.Entity;
-using CloudCustomers.Domain.Entity.Dongle;
+﻿using CloudCustomers.Domain.Entity.Dongle;
 
-namespace CloudCustomers.API.Services;
+namespace CloudCustomers.Infrastructure.Services;
 
 public interface IDongleService
 {

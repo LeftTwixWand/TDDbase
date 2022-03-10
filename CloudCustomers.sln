@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.API", "CloudCustomers.API\CloudCustomers.API.csproj", "{0DC45FD5-605C-4343-8ED2-06CFD6A2865A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Server", "CloudCustomers.Server\CloudCustomers.Server.csproj", "{0DC45FD5-605C-4343-8ED2-06CFD6A2865A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.Server.Tests", "CloudCustomers.Server.Tests\CloudCustomers.Server.Tests.csproj", "{38F3AE76-1C13-476E-B882-AE7E0958D32B}"
 EndProject

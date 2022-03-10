@@ -1,8 +1,8 @@
-using CloudCustomers.API.Services;
+using CloudCustomers.Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CloudCustomers.API.Controllers;
+namespace CloudCustomers.Server.Controllers;
 
 [Authorize]
 [ApiController]

@@ -13,13 +13,13 @@ public static class DongleFixture
             {
                 DealerId = 1,
                 SerialNumber = "00002",
-                UserId = 12
+                UserId = "12"
             },
             new Dongle 
             {
-                DealerId = 2,
                 SerialNumber = "155123",
-                UserId = 5
+                UserId = "5", 
+                ExpirationDate = new DateTime().Date.AddDays(2)
             }
         };
     }
@@ -31,7 +31,7 @@ public static class DongleFixture
         {
             DealerId = 16,
             SerialNumber = "00000008",
-            UserId = 14521
+            UserId = "14521"
         };
     }
 }
