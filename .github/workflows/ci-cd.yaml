@@ -7,21 +7,20 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-        
-      - name: Setup
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
-          
-      - name: Restore dependencies
-        run: dotnet restore
-  
-       - name: Build app
-          run: dotnet build -c Release --no-restore
-        
+    runs-on: windows-latest
+      steps:
+          - name: Check out code
+            uses: actions/checkout@v2
+            
+          - name: Setup
+            uses: actions/setup-dotnet@v1
+            with:
+              dotnet-version: '6.0.x'
+              
+          - name: Restore dependencies
+            run: dotnet restore
+      
+           - name: Build app
+              run: dotnet build -c Release --no-restore
+            
     
