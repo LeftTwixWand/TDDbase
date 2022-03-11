@@ -6,6 +6,6 @@ public class DongleRoutes
 
     public static string GetDongleBySerial(string serial)
     {
-        return $"https://jsonplaceholder.typicode.com/users/{serial}";
+        return $"http://192.168.62.28:44356/RegisterProxyService/GetAvailableProductsByDongle?dongle={serial}";
     }
 }

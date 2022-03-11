@@ -1,7 +1,6 @@
-﻿using CloudCustomers.API.Services;
-using CloudCustomers.Client.Infrastructure.Routes;
-using CloudCustomers.Domain.Entity;
+﻿using CloudCustomers.Client.Infrastructure.Routes;
 using CloudCustomers.Domain.Entity.Dongle;
+using CloudCustomers.Infrastructure.Services;
 using CloudCustomers.Server.Tests.Fixtures;
 using CloudCustomers.Server.Tests.Helpers;
 using FluentAssertions;
@@ -111,7 +110,7 @@ public class TestDongleService
     
     [Fact]
     public async Task GetDongleBySerialWhenCalledInvokesHttpGetRequest()
-    {
+    { 
         //Arrange
         var expectedResponse = DongleFixture.GetTestDongleBySerial();
         var handlerMock = MockHttpMessageHandler<Dongle>.SetupBasicGetResource(expectedResponse);
