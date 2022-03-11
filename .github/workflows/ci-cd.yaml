@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - backender
+
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Check out code
         uses: actions/checkout@v3
