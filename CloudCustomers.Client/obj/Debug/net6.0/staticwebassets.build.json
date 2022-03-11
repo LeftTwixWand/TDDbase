@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y1fYnRf4THj7VfVmahkb+Oiiq2ovRSXmYIvsxbGzXgU=",
+  "Hash": "A/LnpwmfzZrvjGeEIFqLfi1BBwPFpONN+/8J+sLaz3I=",
   "Source": "CloudCustomers.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper\\11.0.1\\lib\\netstandard2.1\\AutoMapper.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\lib\\netstandard2.1\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+    },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\bg\\CloudCustomers.Client.resources.dll",
       "SourceId": "CloudCustomers.Client",
@@ -306,6 +340,23 @@
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\en\\CloudCustomers.Client.resources.dll"
     },
     {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FluentValidation.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/FluentValidation.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\fluentvalidation\\10.3.6\\lib\\net6.0\\FluentValidation.dll"
+    },
+    {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "CloudCustomers.Client",
       "SourceType": "Computed",
@@ -372,6 +423,57 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MediatR.Contracts.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr.contracts\\1.0.1\\lib\\netstandard2.0\\MediatR.Contracts.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MediatR.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr\\10.0.1\\lib\\netstandard2.1\\MediatR.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Extensions.Microsoft.DependencyInjection.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\lib\\netstandard2.1\\MediatR.Extensions.Microsoft.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -933,6 +1035,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\newtonsoft.json\\9.0.1\\lib\\netstandard1.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ru\\CloudCustomers.Client.resources.dll",
@@ -1868,6 +1987,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\lib\\net6.0\\System.Linq.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Linq.Dynamic.Core.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton.kharchenko\\.nuget\\packages\\system.linq.dynamic.core\\1.2.18\\lib\\net6.0\\System.Linq.Dynamic.Core.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Expressions.dll",
@@ -4437,6 +4573,23 @@
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Specialized.dll"
     },
     {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\9b85EOUh.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Linq.Dynamic.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll"
+    },
+    {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\9FxoOAtw.gz",
       "SourceId": "CloudCustomers.Client",
       "SourceType": "Computed",
@@ -4452,6 +4605,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.Writer.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\9vBENAWU.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\9xeOocDj.gz",
@@ -4486,6 +4656,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Claims.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\A+dXSjNM.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MediatR.Extensions.Microsoft.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Extensions.Microsoft.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\aAUvlc1J.gz",
@@ -4554,6 +4741,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\AkX8dbUP.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MediatR.Contracts.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\ALRRoQ0T.gz",
@@ -4673,6 +4877,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.Extensions.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\CrGDNdxc.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/FluentValidation.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FluentValidation.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FluentValidation.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\cwCGaIrh.gz",
@@ -5848,6 +6069,23 @@
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Sockets.dll"
     },
     {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\OhjJ4VDM.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll"
+    },
+    {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\ohO7d9Qf.gz",
       "SourceId": "CloudCustomers.Client",
       "SourceType": "Computed",
@@ -5999,6 +6237,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\pkgCePNY.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\PKm13alj.gz",
@@ -6849,6 +7104,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\Vmg+eOlN.gz",
+      "SourceId": "CloudCustomers.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MediatR.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.dll"
     },
     {
       "Identity": "C:\\Projects\\Tests\\TDD\\CloudCustomers\\CloudCustomers.Client\\obj\\Debug\\net6.0\\build-gz\\vOq63ErE.gz",
