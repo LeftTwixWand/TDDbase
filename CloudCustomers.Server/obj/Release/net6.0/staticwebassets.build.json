@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gg8esw9Voa3+PyyxpPRXq8CCsEnf8/RKuB25SdRZ/Xk=",
+  "Source": "CloudCustomers.Server",
+  "BasePath": "_content/CloudCustomers.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

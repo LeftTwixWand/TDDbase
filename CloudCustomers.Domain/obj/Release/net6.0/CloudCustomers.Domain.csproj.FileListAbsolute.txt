@@ -1,0 +1,12 @@
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\bin\Release\net6.0\CloudCustomers.Domain.deps.json
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\bin\Release\net6.0\CloudCustomers.Domain.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\bin\Release\net6.0\CloudCustomers.Domain.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.csproj.AssemblyReference.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.AssemblyInfoInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.AssemblyInfo.cs
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\refint\CloudCustomers.Domain.dll
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\CloudCustomers.Domain.pdb
+C:\Projects\Tests\TDD\CloudCustomers\CloudCustomers.Domain\obj\Release\net6.0\ref\CloudCustomers.Domain.dll
